@@ -1,0 +1,17 @@
+{
+  "name": "gh_workflow",
+  "version": "1.0.0",
+  "description": "script to improve github workflow",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "emilyb7",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "print_issues": "print_issues.js"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
