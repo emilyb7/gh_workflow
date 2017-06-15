@@ -8,7 +8,7 @@ To run this:
 - clone this project
 - store your token in a `config.json` file in the root of your directory. Should like like.
 ``` json
-{ token: {YOUR_TOKEN} }
+{ "token": "{YOUR_TOKEN}" }
 ```
 - `[sudo] npm link` 
 - then run `print_issues` from any project directory (must have a package.json containing the url of the project's github repo)
